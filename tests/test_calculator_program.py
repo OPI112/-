@@ -4,6 +4,12 @@ from calculate.calculator_program import calculate
 def test_calculate_addition():
     assert calculate(1, 1, '+') == 2
 
+def test_calculate_vichit():
+    assert calculate(1, 1, '-') == 0
+
+def test_calculate_umno():
+    assert calculate(1, 1, '*') == 1
+
 def test_calculate_division():
     assert calculate(8, 2, '/') == 4
 
